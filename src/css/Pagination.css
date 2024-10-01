@@ -1,0 +1,22 @@
+.pagination {
+  display: flex;
+  justify-content: center;
+  height: 48px;
+}
+.pagination__button {
+  width: 32px;
+  height: 32px;
+  align-self: center;
+  cursor: pointer;
+}
+.pagination__text {
+  font-family: "Roboto";
+  font-size: 20px;
+  text-align: center;
+  margin: 0 20px;
+  width: 32px;
+  height: 32px;
+  align-self: center;
+  box-sizing: border-box;
+  padding-top: 4px;
+}

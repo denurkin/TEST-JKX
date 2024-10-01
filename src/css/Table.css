@@ -1,0 +1,82 @@
+.table__wrapper {
+  margin: 0 auto 50px;
+  width: 1408px;
+  border-radius: 20px;
+  height: 944px;
+  border: 1px solid #e0e5eb;
+}
+
+.table {
+  margin: 0 auto;
+  width: 1408px;
+  height: 896px;
+}
+
+.table__list {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: 864px;
+}
+
+.table__titles {
+  margin: 0;
+  font-family: "Roboto";
+  font-size: 13px;
+  padding: 0;
+  display: flex;
+  width: 100%;
+  height: 32px;
+  background-color: #e0e5eb;
+  align-items: center;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.table__number {
+  padding-left: 18px;
+  list-style-type: none;
+  width: 48px;
+  box-sizing: border-box;
+}
+
+.table__type {
+  padding-left: 18px;
+  list-style-type: none;
+  width: 120px;
+  box-sizing: border-box;
+}
+
+.table__date {
+  padding-left: 18px;
+  list-style-type: none;
+  width: 160px;
+  box-sizing: border-box;
+}
+
+.table__automatic {
+  padding-left: 18px;
+  list-style-type: none;
+  width: 128px;
+  box-sizing: border-box;
+}
+
+.table__value {
+  padding-left: 18px;
+  list-style-type: none;
+  width: 146px;
+  box-sizing: border-box;
+}
+
+.table__address {
+  padding-left: 18px;
+  list-style-type: none;
+  width: 430px;
+  box-sizing: border-box;
+}
+
+.table__description {
+  padding-left: 18px;
+  list-style-type: none;
+  width: 376px;
+  box-sizing: border-box;
+}

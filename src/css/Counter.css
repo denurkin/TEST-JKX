@@ -1,0 +1,99 @@
+.counter {
+  font-family: "Roboto";
+  font-size: 14px;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  width: 100%;
+  height: 52px;
+  align-items: center;
+  border: 1px solid #e0e5eb;
+  cursor: url("../img/cursor.png"), auto;
+}
+
+.counter:hover {
+  background-color: #f7f8f9;
+}
+
+.counter__number {
+  padding-left: 18px;
+  list-style-type: none;
+  width: 48px;
+  box-sizing: border-box;
+}
+
+.counter__type {
+  padding-left: 18px;
+  list-style-type: none;
+  width: 120px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+}
+
+.counter__type-text {
+  margin-left: 20px;
+}
+
+.counter__date {
+  padding-left: 18px;
+  list-style-type: none;
+  width: 160px;
+  box-sizing: border-box;
+}
+
+.counter__automatic {
+  padding-left: 18px;
+  list-style-type: none;
+  width: 128px;
+  box-sizing: border-box;
+}
+
+.counter__value {
+  padding-left: 18px;
+  list-style-type: none;
+  width: 146px;
+  box-sizing: border-box;
+}
+
+.counter__address {
+  padding-left: 18px;
+  list-style-type: none;
+  width: 430px;
+  box-sizing: border-box;
+}
+
+.counter__description {
+  padding-left: 18px;
+  list-style-type: none;
+  width: 304px;
+  box-sizing: border-box;
+}
+
+.counter__delete {
+  width: 40px;
+  height: 40px;
+  background-color: #fee3e3;
+  border: none;
+  border-radius: 10px;
+  background-image: url("../img/deleteDisactive.png");
+  cursor: url("../img/cursor.png"), auto;
+}
+
+.counter__delete:hover {
+  background-image: url("../img/deleteActive.png");
+}
+
+.counter__image-water {
+  width: 10px;
+  height: 14px;
+  border-style: none;
+  background-image: url("../img/water.png");
+}
+
+.counter__image-fire {
+  width: 10px;
+  height: 14px;
+  background-image: url("../img/fire.png");
+  border: none;
+}
